@@ -24,9 +24,9 @@ function Footer() {
                         <span className="text-sm text-white ml-2 sm:text-2xl ">Rambling Shambling Wayfarer</span>
                     </Navbar.Brand>
                     <Navbar.Brand className="flex items-center">
+                    <Instagram className='mr-2' size="40" color="#C13584" />
 
-                        <Nav.Link className="flex text-white" href="https://www.instagram.com/ramblingshamblingwayfarer/">
-                            <Instagram className='mr-2' size="40" color="#C13584" />
+                        <Nav.Link className="flex text-white text-sm sm:text-2xl" href="https://www.instagram.com/ramblingshamblingwayfarer/">
                             Instagram
                         </Nav.Link>
                     </Navbar.Brand>
