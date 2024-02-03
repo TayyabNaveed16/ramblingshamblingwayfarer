@@ -13,7 +13,7 @@ import RevealSlideLeft from '../components/RevealSlideLeft';
 function Landing() {
 
   return (
-    <div className="min-h-screen bg-white pb-60 ">
+    <div className="bg-white mb-60 ">
 
       <div className='mt-10 items-center justify-center sm:flex sm:mt-36  '>
 
@@ -40,11 +40,13 @@ function Landing() {
       </div>
 
       <div className='flex max-w-max justify-start items-start'>
-        <motion.img src={FeatherWhite} alt="Logo" className="w-60 h-60 absolute -mt-96 " drag />
+        <motion.img src={FeatherWhite} alt="Logo" className="w-60 h-60 absolute sm:top-20" drag />
       </div>
 
 
-      <div className='mt-40 items-center justify-center sm:flex sm:mt-96'>
+
+
+      <div className='mt-40 items-center justify-center sm:flex sm:mt-96 sm:pt-16'>
 
         <RevealSlide>
           <div
@@ -59,10 +61,9 @@ function Landing() {
           </div>
         </RevealSlide>
 
-        <motion.img src={FeatherBlack} alt="Logo" className="w-60 h-60 absolute right-0 mb-80" drag />
-
 
       </div>
+      <motion.img src={FeatherBlack} alt="Logo" className="w-60 h-60 absolute bottom-0 right-0 " drag />
 
 
 
@@ -84,7 +85,8 @@ function Landing() {
       <motion.img src={FeatherWhite} alt="Logo" className="w-60 h-60 absolute right-0" drag />
 
       <RevealSlide>
-        <div className="flex justify-center items-center mt-20 sm:ml-96 sm:-mr-24 ">
+
+        <div className="flex justify-center items-center mt-20 sm:ml-96">
           <div class="image-container">
             <div class="image"></div>
           </div>
@@ -92,7 +94,7 @@ function Landing() {
       </RevealSlide>
 
       <RevealSlideLeft>
-        <div className="flex justify-center items-center mt-20 sm:mr-96 sm:-ml-24 ">
+        <div className="flex justify-center items-center mt-20 sm:mr-96">
           <div class="image-container2">
             <div class="image2"></div>
           </div>

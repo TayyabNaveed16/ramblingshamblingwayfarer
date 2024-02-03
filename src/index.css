@@ -40,7 +40,7 @@
   height: 100%;
   background-image: url('./components/PurpleNeons.jpg'); /* Replace with your initial image */
   background-size: cover;
-  transition: background-image 0.3s ease; /* Add a smooth transition effect */
+  transition: background-image 1s ease;
 
   /* Other styling if needed */
 }
@@ -48,6 +48,8 @@
 .image:hover {
   background-image: url('./components/PurpleNeons2.jpg'); /* Replace with your hover image */
 }
+
+
 
 .image-container2 {
   position: relative;

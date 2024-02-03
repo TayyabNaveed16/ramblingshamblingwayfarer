@@ -30,8 +30,7 @@ function NavigationBar() {
                     <Navbar.Toggle className='border-0' aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link className="text-xl text-black sm:text-3xl sm:ml-48 hover:underline " href="#home">Poetry</Nav.Link>
-                            <Nav.Link className="text-xl text-black sm:text-3xl sm:ml-10 hover:underline  " href="#link">About Me</Nav.Link>
+                            <Nav.Link className="text-xl text-black sm:text-3xl sm:ml-12 hover:underline " href="#home">Poetry</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
