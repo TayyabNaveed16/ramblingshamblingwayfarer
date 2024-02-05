@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@1,300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 .container1 {
-  max-width: 40rem; /* Increase max-width for width */
-  width: 100%;      /* Set width to 100% to take the full available width */
+  max-width: 40rem;
+  /* Increase max-width for width */
+  width: 100%;
+  /* Set width to 100% to take the full available width */
   border-width: 2px;
   padding: 2.5rem;
   overflow: hidden;
@@ -13,8 +16,10 @@
 }
 
 .container2 {
-  max-width: 60rem; /* Increase max-width for width */
-  width: 100%;      /* Set width to 100% to take the full available width */
+  max-width: 60rem;
+  /* Increase max-width for width */
+  width: 100%;
+  /* Set width to 100% to take the full available width */
   border-width: 2px;
   padding: 2.5rem;
   overflow: hidden;
@@ -23,22 +28,28 @@
 
 .image-container {
   position: relative;
-  width: 500px; /* Default width for screens larger than sm */
-  height: 500px; /* Default height for screens larger than sm */
+  width: 500px;
+  /* Default width for screens larger than sm */
+  height: 500px;
+  /* Default height for screens larger than sm */
 }
 
 @media (max-width: 390px) {
+
   /* Styles for screens smaller than sm */
   .image-container {
-    width: 390px; /* Adjust the width for screens smaller than sm */
-    height: 390px; /* Adjust the height for screens smaller than sm */
+    width: 390px;
+    /* Adjust the width for screens smaller than sm */
+    height: 390px;
+    /* Adjust the height for screens smaller than sm */
   }
 }
 
 .image {
   width: 100%;
   height: 100%;
-  background-image: url('./components/PurpleNeons.jpg'); /* Replace with your initial image */
+  background-image: url('./components/PurpleNeons.jpg');
+  /* Replace with your initial image */
   background-size: cover;
   transition: background-image 1s ease;
 
@@ -46,31 +57,66 @@
 }
 
 .image:hover {
-  background-image: url('./components/PurpleNeons2.jpg'); /* Replace with your hover image */
+  background-image: url('./components/PurpleNeons2.jpg');
+  /* Replace with your hover image */
 }
 
 
 
 .image-container2 {
   position: relative;
-  width: 500px; /* Default width for screens larger than sm */
-  height: 500px; /* Default height for screens larger than sm */
+  width: 500px;
+  /* Default width for screens larger than sm */
+  height: 500px;
+  /* Default height for screens larger than sm */
 }
 
 @media (max-width: 390px) {
+
   /* Styles for screens smaller than sm */
   .image-container2 {
-    width: 390px; /* Adjust the width for screens smaller than sm */
-    height: 390px; /* Adjust the height for screens smaller than sm */
+    width: 390px;
+    /* Adjust the width for screens smaller than sm */
+    height: 390px;
+    /* Adjust the height for screens smaller than sm */
   }
 }
 
 .image2 {
   width: 100%;
   height: 100%;
-  background-image: url('./components/Reprieve.jpg'); /* Replace with your initial image */
+  background-image: url('./components/Reprieve.jpg');
+  /* Replace with your initial image */
   background-size: cover;
-  transition: background-image 0.3s ease; /* Add a smooth transition effect */
+  transition: background-image 0.3s ease;
+  /* Add a smooth transition effect */
 
   /* Other styling if needed */
+}
+
+@font-face {
+  font-family: 'Protest Guerrilla';
+  src: url('/public/fonts/ProtestGuerrilla-Regular.ttf') format('truetype');
+  font-weight: 400;
+  /* Black weight is typically 900 */
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Diphylleia';
+  src: url('/fonts/Diphylleia-Regular.ttf') format('truetype');
+  /* Black weight is typically 900 */
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Diphylleia', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Diphylleia', sans-serif;
+  font-weight: 600;
 }

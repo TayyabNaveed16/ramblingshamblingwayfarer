@@ -11,11 +11,14 @@ import RevealSlideLeft from '../components/RevealSlideLeft';
 
 
 function Landing() {
+  
 
   return (
     <div className="bg-white mb-60 ">
 
       <div className='mt-10 items-center justify-center sm:flex sm:mt-36  '>
+
+        
 
 
         <Reveal>
@@ -28,12 +31,13 @@ function Landing() {
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 600, damping: 10 }}
           >
-            <h1 className='text-4xl font-sans antialiased underline underline-offset-2 decoration-black	decoration-double'>Greetings</h1>
 
-            <h1 className='max-w-full whitespace-normal overflow-hidden text-2xl mt-3'>
+            <h1 className='text-4xl font-bold antialiased underline underline-offset-2 decoration-black	decoration-double'>Greetings</h1>
+
+            <h2 className='max-w-full 	whitespace-normal overflow-hidden text-2xl mt-3'>
               Welcome to my page. I am a writer, a poet, and a coder. Perhaps not all of these pursuits are incongruous with one another, but I wouldn't be a Rambling Shambling Wayfarer then, would I?
 
-            </h1>
+            </h2>
           </motion.div>
         </Reveal>
 
@@ -56,7 +60,7 @@ function Landing() {
             <h1 className='max-w-full whitespace-normal overflow-hidden text-3xl mt-2'>
               We engage in engineering and science to sustain our livelihood, but it is through art, poetry, and writing that we nourish our souls.
             </h1>
-            <h1 className='text-2xl mt-10 font-sans text-end antialiased'>~Uknown</h1>
+            <h2 className='text-2xl mt-10 text-end antialiased'>~Uknown</h2>
 
           </div>
         </RevealSlide>
@@ -77,7 +81,7 @@ function Landing() {
 
       <div className="flex justify-center items-center mt-24 ">
 
-        <h1 className='text-4xl font-sans antialiased underline underline-offset-2 decoration-black	decoration-double'>Some of My Work</h1>
+        <h1 className='text-4xl antialiased underline underline-offset-2 decoration-black	decoration-double'>Some of My Work</h1>
 
       </div>
 
@@ -105,7 +109,7 @@ function Landing() {
 
       <div className="flex justify-center items-center mt-40 ">
 
-        <h1 className='text-4xl font-sans antialiased underline underline-offset-2 decoration-black	decoration-double'>Did my words click?</h1>
+        <h1 className='text-4xl antialiased underline underline-offset-2 decoration-black	decoration-double'>Did my words click?</h1>
 
       </div>
 

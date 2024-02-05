@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Instagram } from 'iconsax-react';
-import logo from '../components/logo.png';
 import FeatherLoop from '../components/FeatherLoop.png';
 
 function Footer() {

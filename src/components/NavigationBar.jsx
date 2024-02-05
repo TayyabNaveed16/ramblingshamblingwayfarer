@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { TableDocument } from 'iconsax-react';
-import logo from '../components/logo.png'
 import FeatherLoop from '../components/FeatherLoop.png'
 
 
@@ -25,12 +24,13 @@ function NavigationBar() {
                 <Container>
                     <Navbar.Brand className="flex items-center sm:-ml-24">
                         <img src={FeatherLoop} alt="Logo" className="w-14 h-14 sm:mb-4  " />
-                        <span className="text-sm sm:text-3xl">Rambling Shambling Wayfarer</span>
+                        <h1 className="text-sm sm:text-3xl">Rambling Shambling Wayfarer</h1>
                     </Navbar.Brand>
                     <Navbar.Toggle className='border-0' aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link className="text-xl text-black sm:text-3xl sm:ml-12 hover:underline " href="#home">Poetry</Nav.Link>
+                            <Nav.Link className="text-xl text-black sm:text-3xl sm:ml-12 hover:underline " href="">
+                                <h1>Poetry</h1></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
