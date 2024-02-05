@@ -20,13 +20,15 @@ function Footer() {
                 <Container>
                     <Navbar.Brand className="flex items-center">
                         <img src={FeatherLoop} alt="Logo" className="w-8 h-8 sm:w-14 sm:h-14 sm:mb-4" />
-                        <span className="text-xs text-white ml-2 sm:text-2xl ">Rambling Shambling Wayfarer</span>
+                        <h1 className="text-xs text-white ml-2 sm:text-2xl ">Rambling Shambling Wayfarer</h1>
                     </Navbar.Brand>
 
                     <Navbar.Brand className="flex items-center">
                         <Nav.Link className="flex text-xs text-white ml-2 sm:text-2xl" href="https://www.instagram.com/ramblingshamblingwayfarer/">
-                            <Instagram className='w-5 h-5  mr-1 sm:mr-2 sm:w-10 sm:h-10'  color="#C13584" />
-                            Instagram
+                            <Instagram className='w-5 h-5  mr-1 sm:mr-2 sm:w-10 sm:h-10' color="#C13584" />
+                            <h1>
+                                Instagram
+                            </h1>
                         </Nav.Link>
                     </Navbar.Brand>
 
