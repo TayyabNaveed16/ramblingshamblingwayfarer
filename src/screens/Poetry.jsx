@@ -44,13 +44,13 @@ function Poetry() {
 
         <div className="sm:flex sm:flex-row justify-start sm:pl-14 lg:pl-28">
 
-          <RevealSlide >
+          <RevealSlideLeft >
             <div className="flex justify-center sm:justify-end pt-96  items-center ">
               <div class="image-container">
                 <div class="image"></div>
               </div>
             </div>
-          </RevealSlide>
+          </RevealSlideLeft>
 
           <div className="pt-20 sm:pt-100 sm:pl-10 md:pl-20 lg:pl-40 xl:pl-72 ">
             <h1 className="text-4xl text-center  text-black underline">Purple Neons</h1>
@@ -99,13 +99,13 @@ function Poetry() {
 
         <div className="sm:flex sm:flex-row justify-start sm:pl-14 lg:pl-28">
 
-          <RevealSlide >
+          <RevealSlideLeft>
             <div className="flex justify-center sm:justify-end pt-96  items-center ">
               <div class="image-container">
                 <div class="image4"></div>
               </div>
             </div>
-          </RevealSlide>
+          </RevealSlideLeft>
 
           <div className="pt-20 sm:pt-100 sm:pl-10 md:pl-20 lg:pl-40 xl:pl-72 ">
             <h1 className="text-4xl text-center  text-black underline">Charlatan</h1>
