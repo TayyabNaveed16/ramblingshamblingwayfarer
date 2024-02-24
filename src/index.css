@@ -4,104 +4,109 @@
 @tailwind utilities;
 
 
+
+.gradient-text {
+  /* Create a linear gradient */
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), white);
+  /* Set the text color to transparent to reveal the gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: bolder;
+  /* Set the fallback color if gradients are not supported */
+  color: transparent;
+}
+
 .container1 {
   max-width: 40rem;
-  /* Increase max-width for width */
   width: 100%;
-  /* Set width to 100% to take the full available width */
-  border-width: 2px;
   padding: 2.5rem;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
 }
 
 .container2 {
   max-width: 60rem;
-  /* Increase max-width for width */
   width: 100%;
-  /* Set width to 100% to take the full available width */
-  border-width: 2px;
+  border-width: 3px;
   padding: 2.5rem;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
+}
+
+.container3 {
+  max-width: 40rem;
+  width: 100%;
+  height: 50%;
+  padding: 2.5rem;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), white);
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
 }
 
 .image-container {
   position: relative;
   width: 500px;
-  /* Default width for screens larger than sm */
   height: 500px;
-  /* Default height for screens larger than sm */
 }
 
-@media (max-width: 390px) {
-
-  /* Styles for screens smaller than sm */
-  .image-container {
-    width: 390px;
-    /* Adjust the width for screens smaller than sm */
-    height: 390px;
-    /* Adjust the height for screens smaller than sm */
-  }
-}
 
 .image {
   width: 100%;
   height: 100%;
-  background-image: url('./components/PurpleNeons.jpg');
-  /* Replace with your initial image */
+  background-image: url('./components/images/PurpleNeons.jpg');
   background-size: cover;
   transition: background-image 1s ease;
 
-  /* Other styling if needed */
 }
 
 .image:hover {
-  background-image: url('./components/PurpleNeons2.jpg');
-  /* Replace with your hover image */
-}
-
-
-
-.image-container2 {
-  position: relative;
-  width: 500px;
-  /* Default width for screens larger than sm */
-  height: 500px;
-  /* Default height for screens larger than sm */
-}
-
-@media (max-width: 390px) {
-
-  /* Styles for screens smaller than sm */
-  .image-container2 {
-    width: 390px;
-    /* Adjust the width for screens smaller than sm */
-    height: 390px;
-    /* Adjust the height for screens smaller than sm */
-  }
+  background-image: url('./components/images/PurpleNeons2.jpg');
 }
 
 .image2 {
   width: 100%;
   height: 100%;
-  background-image: url('./components/Reprieve.jpg');
-  /* Replace with your initial image */
+  background-image: url('./components/images/Reprieve.jpg');
   background-size: cover;
   transition: background-image 0.3s ease;
-  /* Add a smooth transition effect */
 
-  /* Other styling if needed */
 }
 
-@font-face {
-  font-family: 'Protest Guerrilla';
-  src: url('/public/fonts/ProtestGuerrilla-Regular.ttf') format('truetype');
-  font-weight: 400;
-  /* Black weight is typically 900 */
-  font-style: normal;
+.image3 {
+  width: 100%;
+  height: 100%;
+  background-image: url('./components/images/Valentine.jpg');
+  background-size: cover;
+  transition: background-image 1s ease;
 }
 
+.image3:hover {
+  background-image: url('./components/images/Valentine2.jpg');
+}
+
+.image4 {
+  width: 100%;
+  height: 100%;
+  background-image: url('./components/images/Charlatan.jpg');
+  background-size: cover;
+  transition: background-image 1s ease;
+}
+
+
+.video-container2 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; /* Adjust as needed */
+}
 
 
 @font-face {
@@ -120,3 +125,80 @@ h2 {
   font-family: 'Diphylleia', sans-serif;
   font-weight: 600;
 }
+
+
+.black {
+  background: black
+}
+
+.white{
+  background-color: whitesmoke
+}
+
+/* 1st curve */
+.custom-shape-divider-top-1708641576 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1708641576 svg {
+  position: relative;
+  display: block;
+  width: calc(154% + 1.3px);
+  height: 272px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1708641576 .shape-fill {
+  fill: whitesmoke
+}
+
+
+/* 2nd */
+.custom-shape-divider-top-1708642640 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1708642640 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 358px;
+}
+
+.custom-shape-divider-top-1708642640 .shape-fill {
+  fill: #000000;
+}
+
+/* 3rd */
+
+.custom-shape-divider-top-1708736418 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1708736418 svg {
+  position: relative;
+  display: block;
+  width: calc(185% + 1.3px);
+  height: 417px;
+}
+
+.custom-shape-divider-top-1708736418 .shape-fill {
+  fill: whitesmoke;
+}
+
