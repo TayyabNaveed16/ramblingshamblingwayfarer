@@ -41,7 +41,7 @@ function NavigationBar() {
             <Nav className="me-auto">
               <Nav.Link
                 className="text-xl text-black sm:text-3xl sm:ml-12 hover:underline"
-                href="/Poetry"
+                href="/poetry"
               >
                 <h1>Poetry</h1>
               </Nav.Link>
