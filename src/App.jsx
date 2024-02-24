@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './screens/Landing';
-import Poetry from './screens/Poetry';
+import PoetryPage from './screens/Poetry';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import NavigationBar from './components/NavigationBar';
@@ -14,7 +14,7 @@ function App() {
       <NavigationBar/> 
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/poetry" element={<Poetry />} />
+        <Route path="/poetry" element={<PoetryPage />} />
       </Routes>
       <Footer/>
     </Router>
