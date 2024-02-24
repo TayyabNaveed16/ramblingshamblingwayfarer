@@ -11,10 +11,10 @@ import RevealSlideLeft from '../components/RevealSlideLeft';
 
 
 function Landing() {
-  
+
 
   return (
-<div style={{background: 'linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent)', overflowX: 'hidden'}}>
+    <div style={{ background: 'linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent)', overflowX: 'hidden' }}>
       <div className=' items-center justify-center sm:flex pt-40'>
 
         <Reveal>
@@ -30,7 +30,7 @@ function Landing() {
 
             <h1 className='text-4xl font-bold antialiased underline underline-offset-2 decoration-black	decoration-double'>Greetings</h1>
 
-            <h2  className='max-w-full whitespace-normal overflow-hidden text-2xl mt-3'>
+            <h2 className='max-w-full whitespace-normal overflow-hidden text-2xl mt-3'>
               Welcome to my page. I am a writer, a poet, and a coder. Perhaps not all of these pursuits are incongruous with one another, but I wouldn't be a Rambling Shambling Wayfarer then, would I?
 
             </h2>
@@ -102,7 +102,10 @@ function Landing() {
 
       <div className="flex justify-center items-center mt-40 pb-40 ">
 
-        <h1 className='text-4xl antialiased underline underline-offset-2 decoration-black	decoration-double'>Did my words click?</h1>
+        <h1 className='text-4xl antialiased '>
+          Did my words
+          <a href="/poetry" className="ml-1 text-gray-500 hover:text-white">click</a>?
+        </h1>
 
       </div>
 
