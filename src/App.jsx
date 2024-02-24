@@ -14,7 +14,7 @@ function App() {
       <NavigationBar/> 
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/Poetry" element={<Poetry />} />
+        <Route path="/poetry" element={<Poetry />} />
       </Routes>
       <Footer/>
     </Router>
