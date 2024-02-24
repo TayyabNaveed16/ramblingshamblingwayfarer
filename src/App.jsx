@@ -8,9 +8,8 @@ import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
 
 function App() {
-
   return (
-    <Router>
+    <Router basename="/rsw">
       <NavigationBar/> 
       <Routes>
         <Route path="/" element={<Landing />} />
