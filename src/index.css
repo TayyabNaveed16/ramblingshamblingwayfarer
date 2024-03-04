@@ -61,20 +61,20 @@
 .image {
   width: 100%;
   height: 100%;
-  background-image: url('./components/images/PurpleNeons.jpg');
+  background-image: url('./components/images/PurpleNeons.png');
   background-size: cover;
   transition: background-image 1s ease;
 
 }
 
 .image:hover {
-  background-image: url('./components/images/PurpleNeons2.jpg');
+  background-image: url('./components/images/PurpleNeons2.png');
 }
 
 .image2 {
   width: 100%;
   height: 100%;
-  background-image: url('./components/images/Reprieve.jpg');
+  background-image: url('./components/images/Reprieve.png');
   background-size: cover;
   transition: background-image 0.3s ease;
 
@@ -83,19 +83,19 @@
 .image3 {
   width: 100%;
   height: 100%;
-  background-image: url('./components/images/Valentine.jpg');
+  background-image: url('./components/images/Valentine.png');
   background-size: cover;
   transition: background-image 1s ease;
 }
 
 .image3:hover {
-  background-image: url('./components/images/Valentine2.jpg');
+  background-image: url('./components/images/Valentine2.png');
 }
 
 .image4 {
   width: 100%;
   height: 100%;
-  background-image: url('./components/images/Charlatan.jpg');
+  background-image: url('./components/images/Charlatan.png');
   background-size: cover;
   transition: background-image 1s ease;
 }

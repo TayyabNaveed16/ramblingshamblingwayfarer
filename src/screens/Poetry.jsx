@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import PurpleNeons from "../components/images/PurpleNeons.jpg";
-import PurpleNeons2 from "../components/images/PurpleNeons2.jpg";
-import Reprieve from "../components/images/Reprieve.jpg";
+import PurpleNeons from "../components/images/PurpleNeons.png";
+import PurpleNeons2 from "../components/images/PurpleNeons2.png";
+import Reprieve from "../components/images/Reprieve.png";
 import Reveal from "../components/Reveal";
 import RevealSlide from "../components/RevealSlide";
 import RevealSlideLeft from "../components/RevealSlideLeft";
@@ -19,7 +19,7 @@ function Poetry() {
 
           <div className="pt-72" >
             <h1 className="text-3xl md:text-5xl text-center  text-white underline">Reprieve</h1>
-            <h2 className="text-lg md:text-2xl text-center mt-2 text-white max-w-3xl">Description Coming Soon!</h2>
+            <h2 className="text-lg lg:text-2xl text-center mt-2 text-white max-w-2xl">I wrote this during a time when I knew I wouldn't be able to remain friends with some people—people who were once extremely close to me. It's quite overwhelming, a loss like this. I'm sure you can relate.</h2>
           </div>
           <RevealSlide>
             <div className="flex justify-center sm:justify-end pt-20 sm:pt-40  items-center ">
@@ -54,7 +54,7 @@ function Poetry() {
 
           <div className="pt-20 sm:pt-100 sm:pl-10 md:pl-20 lg:pl-40 xl:pl-72 ">
             <h1 className="text-3xl md:text-5xl text-center  text-black underline">Purple Neons</h1>
-            <h2 className="text-lg md:text-2xl text-center mt-2 text-black">Description Coming Soon!</h2>
+            <h2 className="text-lg lg:text-2xl text-center mt-2 text-black max-w-2xl">The photo inspired me to write this one. Funnily enough, it also describes a small yet significant chapter of my life.</h2>
           </div>
 
         </div>
@@ -75,7 +75,7 @@ function Poetry() {
 
           <div className="pt-80" >
             <h1 className="text-3xl md:text-5xl text-center  text-white underline">Will you be my valentine?</h1>
-            <h2 className="text-lg md:text-2xl text-center mt-2 text-white">Description Coming Soon!</h2>
+            <h2 className="text-lg lg:text-2xl text-center mt-2 text-white max-w-2xl">Self-loathing can be quite the killer. In this life, I've realized that your biggest enemy is your own mind.</h2>
           </div>
           <RevealSlide>
             <div className="flex justify-center sm:justify-end pt-20 sm:pt-40  items-center ">
@@ -110,7 +110,7 @@ function Poetry() {
 
           <div className="pt-20 sm:pt-100 sm:pl-10 md:pl-20 lg:pl-40 xl:pl-72 ">
             <h1 className="text-3xl md:text-5xl text-center text-black underline">Charlatan</h1>
-            <h2 className="text-lg md:text-2xl text-center mt-2 text-black">Description Coming Soon!</h2>
+            <h2 className="text-lg lg:text-2xl text-center mt-2 text-black max-w-2xl">This one was simply a means to vent. When I experience too much of one emotion to the point that it's overwhelming, I write poetry to diffuse it all. My means of catharsis, basically. Fun fact: If it takes me longer than 20-25 minutes to write, I'll most probably end up discarding it.</h2>
           </div>
 
         </div>
@@ -128,8 +128,8 @@ function Poetry() {
 
         <div className="sm:flex sm:flex-row justify-evenly items-center">
 
-          <div className="sm:flex mx-4 sm:pb-20 sm:pt-10">
-            <h1 className="text-xl text-white text-center">
+          <div className="mx-4 sm:flex sm:pb-20 sm:pt-10">
+            <h1 className="text-lg text-white text-center">
               Meet Ollie!
             </h1>
           </div>
@@ -141,6 +141,8 @@ function Poetry() {
                   playsinline="playsinline"
                   autoplay="autoplay"
                   muted="muted"
+                  height={800}
+                  width={800}
                   loop="loop"
                 >
                   <source src={PreeningBird} type="video/mp4" />
@@ -149,9 +151,9 @@ function Poetry() {
             </div>
           </Reveal>
 
-          <div className="mx-4 sm:pb-20 sm:pt-10">
+          <div className="mx-4 pt-10 sm:pb-20 sm:pt-10">
             <h1 className="text-3xl md:text-4xl text-center text-white underline">Preening Bird</h1>
-            <h2 className="text-lg md:text-2xl text-center mt-2 text-white">Description Coming Soon!</h2>
+            <h2 className="text-lg lg:text-2xl text-center mt-2 text-white max-w-2xl">And sometimes I write poetry like this one to reminisce about a lover that I once held dear, someone I still think about from time to time.</h2>
           </div>
 
         </div>
