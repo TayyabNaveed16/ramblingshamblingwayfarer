@@ -11,10 +11,46 @@ import RevealSlideLeft from '../components/RevealSlideLeft';
 
 
 function Landing() {
+  
 
 
   return (
     <div style={{ background: 'linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent)', overflowX: 'hidden' }}>
+
+
+      <div className="background-container">
+        <img className='moon' loading='lazy' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="" />
+
+        <div className="stars"></div>
+        <div className="twinkling"></div>
+        <div className="clouds"></div>
+
+        <div style={{ zIndex: 3, marginTop: '80px', position: 'relative', marginLeft: '200px', display: 'flex', flexDirection: 'column' }}>
+          <p className='moonText'>And each night the moon comes to visit</p>
+          <p className='moonText'>Pretending to be the star of the exhibit</p>
+          <p className='moonText'>Donning these appealing guises</p>
+          <p className='moonText'>Appearing in different forms, different sizes</p>
+          <br></br>
+          <p className='moonText'>"How about now?" It asks each time</p>
+          <p className='moonText'>Am I not the one more sublime?</p>
+          <p className='moonText'>With lips pursed, I smile</p>
+          <p className='moonText'>At the moon's attempts to beguile</p>
+          <br></br>
+          <p className='moonText'>"Not quit." I shake my head</p>
+          <p className='moonText'>Leaving the moon in a subtle red</p>
+          <p className='moonText'>You don these fancy appearances to charm</p>
+          <p className='moonText'>Take the spotlight in the heavens to disarm</p>
+          <br></br>
+          <p className='moonText'>Your crimes are tenfold</p>
+          <p className='moonText'>I say to the moon</p>
+          <p className='moonText'>While her lone offense; to be bold</p>
+          <p className='moonText'>And make my poor heart swoon</p>
+        </div>
+
+      </div>
+
+
+
       <div className=' items-center justify-center sm:flex pt-40'>
 
         <Reveal>
@@ -31,7 +67,7 @@ function Landing() {
             <h1 className='text-4xl font-bold antialiased underline underline-offset-2 decoration-black	decoration-double'>Greetings</h1>
 
             <h2 className='max-w-full whitespace-normal overflow-hidden text-2xl mt-3'>
-              Welcome to my page. I am a writer, a poet, and a coder. Perhaps not all of these pursuits are incongruous with one another, but I wouldn't be a Rambling Shambling Wayfarer then, would I?
+              Welcome to my page. I am a writer, a poet, and a coder. Perhaps these pursuits may not be congruous with one another, but I wouldn't be a Rambling Shambling Wayfarer then, would I
 
             </h2>
           </motion.div>
@@ -40,7 +76,7 @@ function Landing() {
       </div>
 
       <div className='flex max-w-max justify-start items-start'>
-        <motion.img src={FeatherWhite} alt="Logo" className="w-60 h-60 absolute sm:top-28" drag />
+        <motion.img src={FeatherWhite} alt="Logo" className="w-60 h-60 absolute sm:top-21" drag />
       </div>
 
 
@@ -60,7 +96,7 @@ function Landing() {
 
 
       </div>
-      <motion.img src={FeatherBlack} alt="Logo" className="w-60 h-60 absolute bottom-0 right-0 " drag />
+      <motion.img src={FeatherBlack} alt="Logo" className="w-60 h-60 absolute bottom-2- right-0 " drag />
 
 
 
