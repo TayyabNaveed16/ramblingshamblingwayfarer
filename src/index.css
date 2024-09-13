@@ -3,15 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body::-webkit-scrollbar {
-  display: none;
+
+.HeadingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
 }
 
-/* Hide scrollbar for other browsers */
-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 
 .gradient-text {
   /* Create a linear gradient */
@@ -113,7 +113,8 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position:center; /* Adjust as needed */
+  object-position: center;
+  /* Adjust as needed */
 }
 
 
@@ -146,7 +147,7 @@ h2 {
   background: black
 }
 
-.white{
+.white {
   background-color: whitesmoke
 }
 
@@ -242,7 +243,8 @@ h2 {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
   }
-  to { 
+
+  to {
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
@@ -251,16 +253,18 @@ h2 {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
   }
-  to { 
+
+  to {
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
 
-@-moz-keyframes move-background {    
+@-moz-keyframes move-background {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
   }
-  to { 
+
+  to {
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
@@ -269,16 +273,20 @@ h2 {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
   }
-  to { 
+
+  to {
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
 
 .background-container {
   position: relative;
-  height: 100vh; /* Make the container full height for visibility */
-  background-color: lightblue; /* Set a background color to see the wave better */
-  overflow: hidden; /* Ensure nothing overflows */
+  height: 100vh;
+  /* Make the container full height for visibility */
+  background-color: lightblue;
+  /* Set a background color to see the wave better */
+  overflow: hidden;
+  /* Ensure nothing overflows */
 }
 
 .wave {
@@ -311,7 +319,7 @@ h2 {
   top: 0;
   bottom: 0;
   z-index: 2;
-  
+
   -moz-animation: move-background 50s linear infinite;
   -ms-animation: move-background 50s linear infinite;
   -o-animation: move-background 50s linear infinite;
@@ -346,16 +354,11 @@ h2 {
 }
 
 
-.moonText{
-color: white;
-font-size: 26px;
-font-family: "Lancelot", serif;
-display: block;
-margin: 0;
-line-height: 1.2;
+.moonText {
+  color: white;
+  font-size: 26px;
+  font-family: "Lancelot", serif;
+  display: block;
+  margin: 0;
+  line-height: 1.2;
 }
-
-
-
-
-

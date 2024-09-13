@@ -51,7 +51,7 @@ function Landing() {
 
 
 
-      <div className=' items-center justify-center sm:flex pt-40'>
+      <div class="HeadingContainer">
 
         <Reveal>
           <img src={FeatherLoop} alt="Logo" className="w-64 h-64 mb-2 sm:mr-10 justify-center items-center " />
