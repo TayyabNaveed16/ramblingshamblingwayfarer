@@ -11,11 +11,15 @@ import RevealSlideLeft from '../components/RevealSlideLeft';
 
 
 function Landing() {
-  
+
 
 
   return (
     <div style={{ background: 'linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent)', overflowX: 'hidden' }}>
+
+<div class="sticky-label">
+        <p>🚧 Site Under Construction 🚧</p>
+      </div>
 
 
       <div className="background-container">
@@ -25,7 +29,7 @@ function Landing() {
         <div className="twinkling"></div>
         <div className="clouds"></div>
 
-        <div style={{ zIndex: 3, marginTop: '80px', position: 'relative', marginLeft: '200px', display: 'flex', flexDirection: 'column' }}>
+        <div className="moon-container">
           <p className='moonText'>And each night the moon comes to visit</p>
           <p className='moonText'>Pretending to be the star of the exhibit</p>
           <p className='moonText'>Donning these appealing guises</p>
@@ -145,7 +149,12 @@ function Landing() {
 
       </div>
 
+
+
+
     </div>
+
+
   );
 }
 

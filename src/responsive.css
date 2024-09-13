@@ -1,13 +1,95 @@
-
-
-
 @media (min-width: 1200px) {
+
+    .moon {
+        height: 70vh;
+        width: 70vh;
+        position: absolute;
+        z-index: 3;
+        right: 20px;
+        margin-top: 30px;
+
+    }
+
+    .moonText {
+        color: whitesmoke;
+        font-size: 27px;
+        font-family: "Lancelot", serif;
+        display: block;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .moon-container {
+        z-index: 3;
+        margin-top: 5%;
+        position: relative;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
+
+    .moon {
+        height: 60vh;
+        width: 60vh;
+        position: absolute;
+        z-index: 3;
+        right: 20px;
+        margin-top: 50px;
+    }
+
+    .moonText {
+        color: whitesmoke;
+        font-size: 24px;
+        font-family: "Lancelot", serif;
+        display: block;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .moon-container {
+        z-index: 3;
+        margin-top: 5%;
+        position: relative;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
+
+    .moon {
+        height: 45vh;
+        width: 45vh;
+        position: absolute;
+        z-index: 3;
+        right: 20px;
+        margin-top: 75px;
+
+    }
+
+    .moonText {
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: "Lancelot", serif;
+        display: block;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .moon-container {
+        z-index: 3;
+        margin-top: 5%;
+        position: relative;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: column;
+    }
 
     .image-container {
         width: 420px;
@@ -18,12 +100,42 @@
 
 @media (min-width: 550px) and (max-width: 767.99px) {
 
-}
+    .background-container {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+      }
 
+    .moon {
+        height: 40vh;
+        width: 40vh;
+        position: absolute;
+        z-index: 3;
+        margin-top: -500px;
+    }
 
+    .moonText {
+        color: whitesmoke;
+        font-size: 19px;
+        font-family: "Lancelot", serif;
+        display: block;
+        margin: 0;
+        line-height: 1.2;
+    }
 
+    .moon-container {
+        z-index: 3;
+        margin-top: 54%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
-@media only screen and (min-width: 640px) and (max-width: 767.99px) {
 
     .image-container {
         width: 380px;
@@ -32,9 +144,46 @@
 
 }
 
-@media (max-width: 640px) {
 
-    /* Styles for screens smaller than sm */
+
+@media (max-width: 549.99px) {
+
+    .background-container {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+      }
+
+    .moon {
+        height: 35vh;
+        width: 35vh;
+        position: absolute;
+        z-index: 3;
+        margin-top: -460px;
+    }
+
+    .moonText {
+        color: whitesmoke;
+        font-size: 17px;
+        font-family: "Lancelot", serif;
+        display: block;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .moon-container {
+        z-index: 3;
+        margin-top: 70%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
     .image-container {
         width: 350px;
         height: 350px;
