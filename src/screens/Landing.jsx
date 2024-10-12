@@ -5,7 +5,7 @@ import FeatherWhite from '../components/images/FeatherWhite.png'
 import FeatherBlack from '../components/images/FeatherBlack.png'
 import BlackFeather from '../components/images/BlackFeather.png'
 import ManyFeathers from '../components/images/ManyFeathers.png'
-import Moon2 from '../components/images/Moon2.png'
+import Moon2 from '../components/images/moon2.png'
 import Reveal from '../components/Reveal';
 import RevealSlide from '../components/RevealSlide';
 import RevealSlideLeft from '../components/RevealSlideLeft';
