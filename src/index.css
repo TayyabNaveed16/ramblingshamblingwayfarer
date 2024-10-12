@@ -21,14 +21,11 @@
   height: 100vh;
   overflow: hidden;
   display: flex;
-
 }
 
 
-
-
 .stars {
-  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+  background: black url("./components/images/stars.png") repeat;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -41,7 +38,7 @@
 .twinkling {
   width: 10000px;
   height: 100%;
-  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+  background: transparent url("./components/images/twinkling.png") repeat;
   background-size: 1000px 1000px;
   position: absolute;
   right: 0;
@@ -59,7 +56,7 @@
 .clouds {
   width: 10000px;
   height: 100%;
-  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+  background: transparent url("./components/images/clouds_repeat.png") repeat;
   background-size: 1000px 1000px;
   position: absolute;
   right: 0;
@@ -84,16 +81,16 @@
 }
 
 
-.gradient-text {
-  /* Create a linear gradient */
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), white);
-  /* Set the text color to transparent to reveal the gradient */
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-weight: bolder;
-  /* Set the fallback color if gradients are not supported */
-  color: transparent;
+.logo-image {
+  width: 16rem; 
+  height: 16rem; 
+  margin-bottom: 0.5rem; 
+  margin-right: 2.5rem; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
+
 
 .container1 {
   max-width: 40rem;

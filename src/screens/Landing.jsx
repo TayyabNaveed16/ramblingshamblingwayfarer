@@ -5,6 +5,7 @@ import FeatherWhite from '../components/images/FeatherWhite.png'
 import FeatherBlack from '../components/images/FeatherBlack.png'
 import BlackFeather from '../components/images/BlackFeather.png'
 import ManyFeathers from '../components/images/ManyFeathers.png'
+import Moon2 from '../components/images/Moon2.png'
 import Reveal from '../components/Reveal';
 import RevealSlide from '../components/RevealSlide';
 import RevealSlideLeft from '../components/RevealSlideLeft';
@@ -23,7 +24,7 @@ function Landing() {
 
 
       <div className="background-container">
-        <img className='moon' loading='lazy' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="" />
+        <img className='moon' loading='lazy' src={Moon2} alt="The Jealous Moon" />
 
         <div className="stars"></div>
         <div className="twinkling"></div>
@@ -58,7 +59,7 @@ function Landing() {
       <div class="HeadingContainer">
 
         <Reveal>
-          <img src={FeatherLoop} alt="Logo" className="w-64 h-64 mb-2 sm:mr-10 justify-center items-center " />
+        <img src={FeatherLoop} alt="Logo" className="logo-image" />
         </Reveal>
 
         <Reveal>
