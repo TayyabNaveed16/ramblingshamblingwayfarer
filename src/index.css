@@ -7,12 +7,17 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #ffcc00; /* Yellow background for visibility */
-  color: #333; /* Dark text color */
+  background-color: #ffcc00;
+  /* Yellow background for visibility */
+  color: #333;
+  /* Dark text color */
   text-align: center;
-  padding: 10px 0; /* Padding for spacing */
-  z-index: 1000; /* Ensures it is above other content */
-  border-bottom: 2px solid #333; /* Optional border for additional emphasis */
+  padding: 10px 0;
+  /* Padding for spacing */
+  z-index: 1000;
+  /* Ensures it is above other content */
+  border-bottom: 2px solid #333;
+  /* Optional border for additional emphasis */
 }
 
 
@@ -82,12 +87,11 @@
 
 
 .logo-image {
-  width: 16rem; 
-  height: 16rem; 
-  margin-bottom: 0.5rem; 
-  margin-right: 2.5rem; 
-  display: flex; 
-  justify-content: center; 
+  width: 450px;
+  height: 450px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -102,6 +106,18 @@
   border-width: 4px;
   border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
 }
+
+.heading1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: underline;
+  text-underline-offset: 0.125rem;
+  text-decoration-color: black;
+  text-decoration-style: double;
+}
+
+
 
 .container2 {
   max-width: 60rem;
@@ -346,4 +362,3 @@ h2 {
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
-

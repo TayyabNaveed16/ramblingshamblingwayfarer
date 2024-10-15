@@ -9,18 +9,14 @@ import Moon2 from '../components/images/moon2.png'
 import Reveal from '../components/Reveal';
 import RevealSlide from '../components/RevealSlide';
 import RevealSlideLeft from '../components/RevealSlideLeft';
+import Logo from '../components/images/Logo.png'
 
 
 function Landing() {
 
-
-
   return (
     <div style={{ background: 'linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent)', overflowX: 'hidden' }}>
 
-<div class="sticky-label">
-        <p>🚧 Site Under Construction 🚧</p>
-      </div>
 
 
       <div className="background-container">
@@ -59,7 +55,7 @@ function Landing() {
       <div class="HeadingContainer">
 
         <Reveal>
-        <img src={FeatherLoop} alt="Logo" className="logo-image" />
+          <img src={Logo} alt="Logo" className="logo-image" />
         </Reveal>
 
         <Reveal>
@@ -69,7 +65,7 @@ function Landing() {
             transition={{ type: "spring", stiffness: 600, damping: 10 }}
           >
 
-            <h1 className='text-4xl font-bold antialiased underline underline-offset-2 decoration-black	decoration-double'>Greetings</h1>
+            <h1 class="heading1">Greetings</h1>
 
             <h2 className='max-w-full whitespace-normal overflow-hidden text-2xl mt-3'>
               Welcome to my page. I am a writer, a poet, and a coder. Perhaps these pursuits may not be congruous with one another, but I wouldn't be a Rambling Shambling Wayfarer then, would I
@@ -77,6 +73,11 @@ function Landing() {
             </h2>
           </motion.div>
         </Reveal>
+
+      </div>
+
+      <div class="LadyJusticeContainer">
+
 
       </div>
 
