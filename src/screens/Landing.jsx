@@ -67,35 +67,35 @@ function Landing() {
 
             <h1 class="heading1">Greetings</h1>
 
-            <h2 className='max-w-full whitespace-normal overflow-hidden text-2xl mt-3'>
+            <h2 className="welcome-text">
               Welcome to my page. I am a writer, a poet, and a coder. Perhaps these pursuits may not be congruous with one another, but I wouldn't be a Rambling Shambling Wayfarer then, would I
-
             </h2>
+
+
           </motion.div>
         </Reveal>
 
       </div>
 
-      <div class="LadyJusticeContainer">
 
-
-      </div>
 
       <div className='flex max-w-max justify-start items-start'>
         <motion.img src={FeatherWhite} alt="Logo" className="w-60 h-60 absolute sm:top-21" drag />
       </div>
 
 
-      <div className='mt-40 items-center justify-center sm:flex sm:mt-96 sm:pt-16'>
+      <div style={{ marginTop: '10rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
         <RevealSlide>
           <div
             className='container2'
           >
-            <h1 className='max-w-full whitespace-normal overflow-hidden text-3xl mt-2'>
+            <h1 className="main-heading">
               We engage in engineering and science to sustain our livelihood, but it is through art, poetry, and writing that we nourish our souls.
             </h1>
-            <h2 className='text-2xl mt-10 text-end antialiased'>~Uknown</h2>
+            <h2 className="quote-author">
+              ~Unknown
+            </h2>
 
           </div>
         </RevealSlide>
@@ -116,7 +116,9 @@ function Landing() {
 
       <div className="flex justify-center items-center mt-24 ">
 
-        <h1 className='text-4xl antialiased underline underline-offset-2 decoration-black	decoration-double'>Some of My Work</h1>
+        <h1 className="work-heading">
+          Some of My Work
+        </h1>
 
       </div>
 
@@ -144,15 +146,12 @@ function Landing() {
 
       <div className="flex justify-center items-center mt-40 pb-40 ">
 
-        <h1 className='text-4xl antialiased '>
+        <h1 className="headline">
           Did my words
-          <a href="/poetry" className="ml-1 text-gray-500 hover:text-white">click</a>?
+          <a href="/poetry" className="poetry-link">click</a>?
         </h1>
 
       </div>
-
-
-
 
     </div>
 

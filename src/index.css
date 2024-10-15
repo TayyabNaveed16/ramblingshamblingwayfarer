@@ -82,7 +82,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 20rem;
 }
 
 
@@ -117,6 +117,14 @@
   text-decoration-style: double;
 }
 
+.welcome-text {
+  max-width: 100%;
+  white-space: normal;
+  overflow: hidden;
+  font-size: 1.5rem; /* Equivalent to 'text-2xl' */
+  margin-top: 0.75rem; /* Equivalent to 'mt-3' */
+}
+
 
 
 .container2 {
@@ -131,6 +139,23 @@
   border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
 }
 
+.main-heading {
+  max-width: 100%;
+  white-space: normal;
+  overflow: hidden;
+  font-size: 1.875rem; /* Equivalent to 'text-3xl' */
+  margin-top: 0.5rem;  /* Equivalent to 'mt-2' */
+}
+
+.quote-author {
+  font-size: 1.5rem;   /* Equivalent to 'text-2xl' */
+  margin-top: 2.5rem;  /* Equivalent to 'mt-10' */
+  text-align: end;     /* Equivalent to 'text-end' */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
 .container3 {
   max-width: 40rem;
   width: 100%;
@@ -143,11 +168,38 @@
   border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
 }
 
+.work-heading {
+  font-size: 2.25rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: underline;
+  text-underline-offset: 0.125rem;
+  text-decoration-color: black;
+  text-decoration-style: double;
+}
+
 .image-container {
   position: relative;
   width: 500px;
   height: 500px;
 }
+
+.headline {
+  font-size: 2.25rem; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.poetry-link {
+  margin-left: 0.25rem;
+  color: #6b7280;
+  text-decoration: none;
+}
+
+.poetry-link:hover {
+  color: white;
+}
+
 
 
 .image {

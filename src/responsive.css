@@ -59,6 +59,21 @@
         flex-direction: column;
     }
 
+
+    .HeadingContainer {
+        flex-direction: column;
+        padding-top: 10rem;
+    }
+
+    .logo-image {
+        width: 450px;
+        height: 450px;
+        margin-bottom: 0px;
+    }
+
+
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -96,6 +111,47 @@
         height: 420px;
     }
 
+    .HeadingContainer {
+        flex-direction: column;
+        padding-top: 10rem;
+    }
+
+    .logo-image {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 0px;
+    }
+
+    .container2 {
+        max-width: 45rem;
+        width: 100%;
+        border-width: 3px;
+        padding: 2.5rem;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
+        border-style: solid;
+        border-width: 4px;
+        border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
+      }
+      
+      .main-heading {
+        max-width: 100%;
+        white-space: normal;
+        overflow: hidden;
+        font-size: 1.875rem; /* Equivalent to 'text-3xl' */
+        margin-top: 0.5rem;  /* Equivalent to 'mt-2' */
+      }
+      
+      .quote-author {
+        font-size: 1.5rem;   /* Equivalent to 'text-2xl' */
+        margin-top: 2.5rem;  /* Equivalent to 'mt-10' */
+        text-align: end;     /* Equivalent to 'text-end' */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+
+
 }
 
 @media (min-width: 550px) and (max-width: 767.99px) {
@@ -108,7 +164,7 @@
         align-items: center;
         text-align: center;
         display: flex;
-      }
+    }
 
     .moon {
         height: 40vh;
@@ -142,6 +198,71 @@
         height: 380px;
     }
 
+    .HeadingContainer {
+        flex-direction: column;
+        padding-top: 10rem;
+    }
+
+
+    .logo-image {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container1 {
+        max-width: 33rem;
+        width: 100%;
+        padding: 2.5rem;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
+        border-style: solid;
+        border-width: 4px;
+        border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
+    }
+
+    .heading1 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: underline;
+        text-underline-offset: 0.125rem;
+        text-decoration-color: black;
+        text-decoration-style: double;
+    }
+
+    .container2 {
+        max-width: 33rem;
+        width: 100%;
+        border-width: 3px;
+        padding: 2.5rem;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
+        border-style: solid;
+        border-width: 4px;
+        border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
+      }
+      
+      .main-heading {
+        max-width: 100%;
+        white-space: normal;
+        overflow: hidden;
+        font-size: 1.875rem; /* Equivalent to 'text-3xl' */
+        margin-top: 0.5rem;  /* Equivalent to 'mt-2' */
+      }
+      
+      .quote-author {
+        font-size: 1.5rem;   /* Equivalent to 'text-2xl' */
+        margin-top: 2.5rem;  /* Equivalent to 'mt-10' */
+        text-align: end;     /* Equivalent to 'text-end' */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
 }
 
 
@@ -156,7 +277,7 @@
         align-items: center;
         text-align: center;
         display: flex;
-      }
+    }
 
     .moon {
         height: 35vh;
@@ -189,6 +310,98 @@
         height: 350px;
     }
 
+    .HeadingContainer {
+        flex-direction: column;
+        padding-top: 10rem;
+    }
 
+    .logo-image {
+        width: 340px;
+        height: 340px;
+        margin-bottom: 0px;
+    }
+
+    .container1 {
+        max-width: 20rem;
+        width: 100%;
+        padding: 2.0rem;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
+        border-style: solid;
+        border-width: 4px;
+        border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
+    }
+
+    .heading1 {
+        font-size: 1.90rem;
+        font-weight: 700;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: underline;
+        text-underline-offset: 0.125rem;
+        text-decoration-color: black;
+        text-decoration-style: double;
+    }
+
+    .welcome-text {
+        max-width: 100%;
+        white-space: normal;
+        overflow: hidden;
+        font-size: 1.35rem; /* Equivalent to 'text-2xl' */
+        margin-top: 0.75rem; /* Equivalent to 'mt-3' */
+      }
+
+      .container2 {
+        max-width: 20rem;
+        width: 100%;
+        border-width: 3px;
+        padding: 2.5rem;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
+        border-style: solid;
+        border-width: 4px;
+        border-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), white) 1;
+      }
+      
+      .main-heading {
+        max-width: 100%;
+        white-space: normal;
+        overflow: hidden;
+        font-size: 1.68rem;
+        margin-top: 0.5rem;
+      }
+      
+      .quote-author {
+        font-size: 1.5rem;  
+        margin-top: 2.5rem; 
+        text-align: end;     
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .work-heading {
+        font-size: 1.8rem; 
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-decoration: underline;
+        text-underline-offset: 0.125rem; 
+        text-decoration-color: black; 
+        text-decoration-style: double;
+      }
+
+      .headline {
+        font-size: 1.8rem; 
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .poetry-link {
+        margin-left: 0.25rem;
+        color: #6b7280;
+        text-decoration: none;
+      }
+      
+      .poetry-link:hover {
+        color: white;
+      }
 
 }
