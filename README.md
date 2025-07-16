@@ -1,6 +1,16 @@
-# Rambling Shambling Wayfarer Website
+<p align="center">
+  <img src="./components/images/Logo.png" alt="SableSky" height="300"/>
+</p>
 
-This is a website that I created for my poetry account [https://ramblingshamblingwayfarer.vercel.app](https://www.instagram.com/ramblingshamblingwayfarer/)https://www.instagram.com/ramblingshamblingwayfarer/
 
-This was a good opportunity for me to learn framer motion and apply it.
+# Rambling Shambling Wayfarer
+*Code for my Poetry Website*
 
+
+## 📋 Features
+- Responsive UI
+- Evocative Poetry
+
+
+## 🛠️ Tech Stack
+**Frontend:** React.js  
