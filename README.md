@@ -10,6 +10,7 @@
 ## 📋 Features
 - Responsive UI
 - Evocative Poetry
+- framer-motion
 
 
 ## 🛠️ Tech Stack
