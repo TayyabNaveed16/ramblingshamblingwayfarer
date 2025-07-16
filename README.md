@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./components/images/Logo.png" alt="SableSky" height="300"/>
+  <img src="./src/components/images/Logo.png" alt="Logo" height="300"/>
 </p>
 
 
